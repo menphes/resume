@@ -294,6 +294,9 @@
 				page-break-after:avoid;
 				font-style:italic;
 				text-align:left}
+			
+			@media print {
+				.printBreak {page-break-before: always;}}
 		</style>
 	</head>
 	<body class="c21 doc-content">
@@ -385,6 +388,8 @@
 					<p class="c0 c5">
 						<span class="c4"></span>
 					</p>
+
+					<div class="printBreak"></div>
 					
 					<h2 class="c0 c3" id="h.x3lw129l5lcf">
 						<span class="c1">PHP Developer</span><br/>
